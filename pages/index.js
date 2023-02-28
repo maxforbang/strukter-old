@@ -25,7 +25,7 @@ import Link from "next/link";
 
 const useStyles = makeStyles(landingPageStyle);
 
-function Home() {
+export default function Home() {
     React.useEffect(() => {
         window.scrollTo(0, 0);
         document.body.scrollTop = 0;
@@ -50,7 +50,6 @@ function Home() {
                     height: 300,
                     color: "white"
                 }}
-                {...rest}
             />
             <Parallax image="/img/home/header2.jpg" filter="dark">
                 <div className={classes.container}>
@@ -150,5 +149,3 @@ function Home() {
         </div>
     );
 }
-
-export default Home
