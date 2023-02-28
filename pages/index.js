@@ -25,7 +25,7 @@ import Link from "next/link";
 
 const useStyles = makeStyles(landingPageStyle);
 
-export default function Index({ ...rest }) {
+function Home() {
     React.useEffect(() => {
         window.scrollTo(0, 0);
         document.body.scrollTop = 0;
@@ -150,3 +150,5 @@ export default function Index({ ...rest }) {
         </div>
     );
 }
+
+export default Home
