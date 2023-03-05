@@ -9,6 +9,7 @@ import Icon from "@mui/material/Icon";
 import Build from "@mui/icons-material/Build";
 import Subject from "@mui/icons-material/Subject";
 import projectsStyle from "../../styles/jss/nextjs-material-kit-pro/pages/sectionsSections/projectsStyle";
+import {FadeInWhenVisibleHorizontal, FadeInWhenVisibleVertical} from "../../animations/FadeInWhenVisible";
 
 const useStyles = makeStyles(projectsStyle)
 export default function ProjectsSection() {
@@ -46,31 +47,34 @@ export default function ProjectsSection() {
 				</GridContainer>
 				<GridContainer>
 					<GridItem xs={12} sm={12} md={12}>
-						<Card
-							raised
-							background
-							style={{
-								backgroundImage: "url('https://ik.imagekit.io/strukter/Strukter/Landing/project-1.jpg?w=540')"
-							}}
-						>
-							<CardBody background>
-								<h6 className={classes.cardCategory}>Direct Booking Site</h6>
-								<a href="#pablito" onClick={(e) => e.preventDefault()}>
-									<h3 className={classes.cardTitleWhite}>
-										21% Increase in Revenue from Bookings
-									</h3>
-								</a>
-								<p className={classes.cardDescription}>
-									Skipping AirBnB fees means that you enjoy higher returns while also saving guests money.
-									Have 100% control over your bookings and guest communication with a custom website that not only looks great but also drives bookings and revenue.
-								</p>
-								<Button round color="warning">
-									<Subject /> Case study
-								</Button>
-							</CardBody>
-						</Card>
+						<FadeInWhenVisibleVertical initial={100} duration={1}>
+							<Card
+								raised
+								background
+								style={{
+									backgroundImage: "url('https://ik.imagekit.io/strukter/Strukter/Landing/project-1.jpg?w=540')"
+								}}
+							>
+								<CardBody background>
+									<h6 className={classes.cardCategory}>Direct Booking Site</h6>
+									<a href="#pablito" onClick={(e) => e.preventDefault()}>
+										<h3 className={classes.cardTitleWhite}>
+											21% Increase in Revenue from Bookings
+										</h3>
+									</a>
+									<p className={classes.cardDescription}>
+										Skipping AirBnB fees means that you enjoy higher returns while also saving guests money.
+										Have 100% control over your bookings and guest communication with a custom website that not only looks great but also drives bookings and revenue.
+									</p>
+									<Button round color="warning">
+										<Subject /> Case study
+									</Button>
+								</CardBody>
+							</Card>
+						</FadeInWhenVisibleVertical>
 					</GridItem>
 					<GridItem xs={12} sm={6} md={6}>
+						<FadeInWhenVisibleHorizontal initial={-100} duration={1}>
 						<Card
 							raised
 							background
@@ -93,8 +97,10 @@ export default function ProjectsSection() {
 								</Button>
 							</CardBody>
 						</Card>
+						</FadeInWhenVisibleHorizontal>
 					</GridItem>
 					<GridItem xs={12} sm={6} md={6}>
+						<FadeInWhenVisibleHorizontal initial={100} duration={1}>
 						<Card
 							raised
 							background
@@ -119,6 +125,7 @@ export default function ProjectsSection() {
 								</Button>
 							</CardBody>
 						</Card>
+						</FadeInWhenVisibleHorizontal>
 					</GridItem>
 				</GridContainer>
 			</div>

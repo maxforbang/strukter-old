@@ -7,6 +7,7 @@ import featuresStyle from "../../styles/jss/nextjs-material-kit-pro/pages/sectio
 import GroupWork from "@mui/icons-material/GroupWork";
 import Airplay from "@mui/icons-material/Airplay";
 import LocationOn from "@mui/icons-material/LocationOn";
+import {FadeInWhenVisible} from "../../animations/FadeInWhenVisible";
 
 const useStyles = makeStyles(featuresStyle)
 export default function FeaturesSection() {
@@ -25,14 +26,18 @@ export default function FeaturesSection() {
 							classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
 						}
 					>
+						<FadeInWhenVisible>
 						<h2 className={classes.title}>What I Do</h2>
 						<h5 className={classes.description}>
 							I help AirBnB owners make more money with less time by creating automated systems that increase bookings and allow rental properties to run smoothly while you sleep.
 						</h5>
+						</FadeInWhenVisible>
 					</GridItem>
 				</GridContainer>
+				<FadeInWhenVisible duration={2}>
 				<GridContainer>
 					<GridItem xs={12} sm={4} md={4}>
+
 						<InfoArea
 							icon={GroupWork}
 							title="Web Development"
@@ -84,6 +89,7 @@ export default function FeaturesSection() {
 						/>
 					</GridItem>
 				</GridContainer>
+				</FadeInWhenVisible>
 			</div>
 		</div>
 	)
