@@ -4,7 +4,7 @@ import {
   successColor,
   whiteColor,
   grayColor,
-  defaultFont
+  defaultFont, infoColor, linkedinColor
 } from "/styles/jss/nextjs-material-kit-pro.js";
 
 const customInputStyle = {
@@ -19,7 +19,7 @@ const customInputStyle = {
       borderBottomWidth: "1px !important"
     },
     "&:after": {
-      borderBottomColor: primaryColor[0]
+      borderBottomColor: linkedinColor[0]
     }
   },
   underlineError: {

@@ -10,18 +10,15 @@ import GridItem from "/components/Grid/GridItem.js";
 import Button from "/components/CustomButtons/Button.js";
 import HeaderLinks from "/components/Header/HeaderLinks.js";
 import Parallax from "/components/Parallax/Parallax.js";
-
 import landingPageStyle from "/styles/jss/nextjs-material-kit-pro/pages/landingPageStyle.js";
 
 // Sections for this page
-
 import PhoneSection from "../page-components/index/PhoneSection";
 import FeaturesSection from "../page-components/index/FeaturesSection";
 import TestimonialSection from "../page-components/index/TestimonialSection";
 import MacBookSection from "../page-components/index/MacBookSection";
 import ProjectsSection from "../page-components/index/ProjectsSection";
-import WorkSection from "../page-components/index/WorkSection";
-import Link from "next/link";
+import ContactSection from "../page-components/index/ContactSection";
 
 const useStyles = makeStyles(landingPageStyle);
 
@@ -51,7 +48,7 @@ export default function Home() {
                     color: "white"
                 }}
             />
-            <Parallax image="/img/home/header2.jpg" filter="dark">
+            <Parallax image='https://ik.imagekit.io/strukter/Strukter/Landing/header?w=2000' filter="dark">
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={6} md={6}>
@@ -77,17 +74,13 @@ export default function Home() {
             </Parallax>
             <div className={classNames(classes.main, classes.mainRaised)} >
                 <div >
-
-
                     <FeaturesSection />
                     <MacBookSection />
                     <ProjectsSection />
                     <PhoneSection />
                     {/*<GridSection />*/}
-                    <TestimonialSection id="testimonials" />
-                    <div id='contact-form'>
-                    <WorkSection/>
-                    </div>
+                    {/*<TestimonialSection id="testimonials" />*/}
+                    <ContactSection/>
                 </div>
             </div>
             <Footer

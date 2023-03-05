@@ -61,7 +61,21 @@ InfoArea.propTypes = {
     "success",
     "info",
     "rose",
-    "gray"
+    "gray",
+    "white",
+    "twitter",
+    "facebook",
+    "google",
+    "linkedin",
+    "pinterest",
+    "youtube",
+    "tumblr",
+    "github",
+    "behance",
+    "dribbble",
+    "reddit",
+    "instagram",
+    "transparent"
   ]),
   vertical: PropTypes.bool,
   className: PropTypes.string

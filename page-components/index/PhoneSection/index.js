@@ -1,18 +1,11 @@
 import GridContainer from "../../../components/Grid/GridContainer";
 import GridItem from "../../../components/Grid/GridItem";
-import InfoArea from "../../../components/InfoArea/InfoArea";
-import Extension from "@mui/icons-material/Extension";
-import ChildFriendly from "@mui/icons-material/ChildFriendly";
-import WatchLater from "@mui/icons-material/WatchLater";
 import React from "react";
 import makeStyles from "@mui/styles/makeStyles";
 import featuresStyle from "../../../styles/jss/nextjs-material-kit-pro/pages/sectionsSections/featuresStyle";
 import InfoAreaPhone from "./InfoAreaPhone";
-import Dashboard from "@mui/icons-material/Dashboard";
 import {
 	DashboardOutlined,
-	DashboardRounded,
-	DashboardTwoTone,
 	LibraryBooksOutlined,
 	PhoneIphone
 } from "@mui/icons-material";

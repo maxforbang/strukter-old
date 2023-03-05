@@ -42,11 +42,11 @@ const theme = createTheme({
     },
     MuiTab: {
       styleOverrides: {
-        root: {
-          "&.Mui-selected": {
-            color: "#fff !important",
-          },
-        },
+        // root: {
+        //   "&.Mui-selected": {
+        //     color: "#fff !important",
+        //   },
+        // },
       },
     },
   },

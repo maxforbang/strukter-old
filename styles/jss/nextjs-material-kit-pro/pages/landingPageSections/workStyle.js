@@ -21,7 +21,8 @@ const workStyle = {
   },
   description: {
     color: grayColor[0],
-    textAlign: "center"
+    textAlign: "center",
+    fontSize: '1.5em'
   },
   textCenter: {
     textAlign: "center"

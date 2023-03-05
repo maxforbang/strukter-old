@@ -71,7 +71,7 @@ const cardHeaderStyle = {
   dangerCardHeader,
   infoCardHeader,
   primaryCardHeader,
-  roseCardHeader
+  roseCardHeader,
 };
 
 export default cardHeaderStyle;

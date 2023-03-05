@@ -1,16 +1,7 @@
 import GridContainer from "../../components/Grid/GridContainer";
 import GridItem from "../../components/Grid/GridItem";
-import InfoArea from "../../components/InfoArea/InfoArea";
-import Extension from "@mui/icons-material/Extension";
-import ChildFriendly from "@mui/icons-material/ChildFriendly";
-import WatchLater from "@mui/icons-material/WatchLater";
 import React from "react";
 import makeStyles from "@mui/styles/makeStyles";
-import featuresStyle from "../../styles/jss/nextjs-material-kit-pro/pages/sectionsSections/featuresStyle";
-import GroupWork from "@mui/icons-material/GroupWork";
-import Airplay from "@mui/icons-material/Airplay";
-import LocationOn from "@mui/icons-material/LocationOn";
-import NavPills from "../../components/NavPills/NavPills";
 import Card from "../../components/Card/Card";
 import CardBody from "../../components/Card/CardBody";
 import Button from "../../components/CustomButtons/Button";
@@ -59,7 +50,7 @@ export default function ProjectsSection() {
 							raised
 							background
 							style={{
-								backgroundImage: "url('/img/home/project-1.jpg')"
+								backgroundImage: "url('https://ik.imagekit.io/strukter/Strukter/Landing/project-1.jpg?w=540')"
 							}}
 						>
 							<CardBody background>
@@ -83,7 +74,7 @@ export default function ProjectsSection() {
 						<Card
 							raised
 							background
-							style={{ backgroundImage: "url('/img/home/projects-2.jpg')" }}
+							style={{ backgroundImage: "url('https://ik.imagekit.io/strukter/Strukter/Landing/projects-2.jpg?w=540')" }}
 						>
 							<CardBody background>
 								<h6 className={classes.cardCategory}>SEO & Branding</h6>
@@ -107,7 +98,7 @@ export default function ProjectsSection() {
 							raised
 							background
 							style={{
-								backgroundImage: "url('/img/home/projects-3.jpg')"
+								backgroundImage: "url('https://ik.imagekit.io/strukter/Strukter/Landing/projects-3.jpg?w=540')"
 							}}
 						>
 							<CardBody background>

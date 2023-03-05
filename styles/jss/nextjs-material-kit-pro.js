@@ -94,8 +94,8 @@ const successColor = [
   "#66bb6a",
 ];
 const infoColor = [
-  "#00acc1",
-  "#26c6da",
+  "#2383b3",
+  "#2383b3",
   "#00acc1",
   "#00d3ee",
   "#d9edf7",
@@ -293,6 +293,13 @@ const roseCardHeader = {
   color: whiteColor,
   background:
     "linear-gradient(60deg, " + roseColor[1] + ", " + roseColor[2] + ")",
+  ...roseBoxShadow,
+};
+
+const linkedinCardHeader = {
+  color: whiteColor,
+  background:
+      "linear-gradient(60deg, " + linkedinColor[1] + ", " + linkedinColor[2] + ")",
   ...roseBoxShadow,
 };
 const cardActions = {

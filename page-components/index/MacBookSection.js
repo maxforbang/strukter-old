@@ -10,7 +10,8 @@ import presentationStyle from "../../styles/jss/nextjs-material-kit-pro/pages/pr
 
 const useStyles = makeStyles(componentsStyle);
 const usePresentationStyles = makeStyles(presentationStyle);
-
+import Image from 'next/image'
+import {Box} from "@mui/material";
 
 export default function MacBookSection() {
   const classes = useStyles();
@@ -39,11 +40,14 @@ export default function MacBookSection() {
                 alt="macbook"
                 className={classes.componentsMacbook}
               />
-              <img
-                src="/img/home/dashboard1.png"
-                alt="macbook"
-                className={classes.shoppingCart}
-              />
+              <Box height={175} width={331.96} className={classes.shoppingCart}>
+                <Image
+                    src="/img/home/dashboard1.png"
+                    alt="macbook"
+                    layout='fill'
+                    objectFit='cover'
+                />
+              </Box>
               <img
                 src="/img/assets-for-demo/presentationViewSectionComponent/share-btn.png"
                 alt="macbook"
