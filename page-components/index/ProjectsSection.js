@@ -87,8 +87,9 @@ export default function ProjectsSection() {
 									Make your rentals easily discoverable by potential guests with Search Engine Optimization (SEO) and a consistently updated newsletter
 									filled with specially curated content that keeps guests coming back for more.
 								</p>
-								<Button round color="danger">
-									<Icon>content_copy</Icon> View App
+								<Button round color="info">
+									<Build />
+									View Campaign
 								</Button>
 							</CardBody>
 						</Card>
@@ -113,9 +114,8 @@ export default function ProjectsSection() {
 									to control lighting, temperature, and music with just a few taps. Create an unforgettable guest experience that they're sure to rave about.
 									{/*In addition, provide local recommendations, reservations, and transportation options that help them make the most of their stay.*/}
 								</p>
-								<Button round color="info">
-									<Build />
-									View Project
+								<Button round color="danger">
+									<Icon>content_copy</Icon> View App
 								</Button>
 							</CardBody>
 						</Card>
