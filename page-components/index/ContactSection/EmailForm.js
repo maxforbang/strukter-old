@@ -33,7 +33,7 @@ export default function EmailForm({isMobile}) {
 
 	function handleSubmit() {
 		if (!name || !email || !message) {
-			setError('Please fill out all fields.')
+			setError('Please fill out every field.')
 			return
 		}
 

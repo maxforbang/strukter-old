@@ -17,7 +17,6 @@ import Typed from 'typed.js';
 // Sections for this page
 import PhoneSection from "../page-components/index/PhoneSection";
 import FeaturesSection from "../page-components/index/FeaturesSection";
-import TestimonialSection from "../page-components/index/TestimonialSection";
 import MacBookSection from "../page-components/index/MacBookSection";
 import ProjectsSection from "../page-components/index/ProjectsSection";
 import ContactSection from "../page-components/index/ContactSection";

@@ -42,11 +42,14 @@ export default function MacBookSection() {
 						<GridItem xs={12} sm={12} md={6} lg={6} className={classes.mlAuto}>
 							<FadeInWhenVisibleHorizontal initial={150} duration={1.5}>
 								<div className={classes.imageContainer}>
-									<img
-										src="img/home/laptop-site-mockup.png"
-										alt="macbook"
-										className={classes.componentsMacbook}
-									/>
+									<div className={classes.componentsMacbook} style={{position: 'relative'}}>
+										<Image
+											src="/img/home/laptop-site-mockup.png"
+											alt="macbook"
+											layout='fill'
+											objectFit='contain'
+										/>
+									</div>
 									<Box height={175} width={331.96} className={classes.shoppingCart}>
 										<Image
 											src="/img/home/dashboard1.png"
@@ -56,27 +59,27 @@ export default function MacBookSection() {
 										/>
 									</Box>
 									<img
-										src="/img/assets-for-demo/presentationViewSectionComponent/share-btn.png"
+										src="/img/presentationViewSectionComponent/share-btn.png"
 										alt="macbook"
 										className={classes.shareButton}
 									/>
 									<img
-										src="/img/assets-for-demo/presentationViewSectionComponent/coloured-card-with-btn.jpg"
+										src="/img/presentationViewSectionComponent/coloured-card-with-btn.jpg"
 										alt="macbook"
 										className={classes.cardImage}
 									/>
 									<img
-										src="/img/assets-for-demo/presentationViewSectionComponent/coloured-card.jpg"
+										src="/img/presentationViewSectionComponent/coloured-card.jpg"
 										alt="macbook"
 										className={classes.twitterImage}
 									/>
 									<img
-										src="/img/assets-for-demo/presentationViewSectionComponent/social-row.jpg"
+										src="/img/presentationViewSectionComponent/social-row.jpg"
 										alt="macbook"
 										className={classes.iconsImage}
 									/>
 									<img
-										src="/img/assets-for-demo/presentationViewSectionComponent/pin-btn.jpg"
+										src="/img/presentationViewSectionComponent/pin-btn.jpg"
 										alt="macbook"
 										className={classes.repostImage}
 									/>

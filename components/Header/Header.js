@@ -12,7 +12,6 @@ import Button from "@mui/material/Button";
 import Hidden from "@mui/material/Hidden";
 import Drawer from "@mui/material/Drawer";
 // @mui/icons-material
-import Menu from "@mui/icons-material/Menu";
 import Close from "@mui/icons-material/Close";
 // core components
 import styles from "/styles/jss/nextjs-material-kit-pro/components/headerStyle.js";
