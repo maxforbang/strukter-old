@@ -52,7 +52,7 @@ export default function ProjectsSection() {
 								raised
 								background
 								style={{
-									backgroundImage: "url('https://ik.imagekit.io/strukter/Strukter/Landing/project-1.jpg?w=540')"
+									backgroundImage: "url('https://ik.imagekit.io/strukter/Strukter/Landing/project-1.jpg?w=360')"
 								}}
 							>
 								<CardBody background>
@@ -78,7 +78,7 @@ export default function ProjectsSection() {
 						<Card
 							raised
 							background
-							style={{ backgroundImage: "url('https://ik.imagekit.io/strukter/Strukter/Landing/projects-2.jpg?w=540')" }}
+							style={{ backgroundImage: "url('https://ik.imagekit.io/strukter/Strukter/Landing/projects-2.jpg?w=360')" }}
 						>
 							<CardBody background>
 								<h6 className={classes.cardCategory}>SEO & Branding</h6>
@@ -105,7 +105,7 @@ export default function ProjectsSection() {
 							raised
 							background
 							style={{
-								backgroundImage: "url('https://ik.imagekit.io/strukter/Strukter/Landing/projects-3.jpg?w=540')"
+								backgroundImage: "url('https://ik.imagekit.io/strukter/Strukter/Landing/projects-3.jpg?w=360')"
 							}}
 						>
 							<CardBody background>

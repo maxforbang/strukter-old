@@ -38,7 +38,7 @@ export default function ContactSection() {
 
 	return (
 		<div className={classes.section}>
-			<GridContainer justifyContent='center'>
+			<GridContainer justifyContent='center' id='contact-form'>
 				<GridItem cs={12} sm={8} md={8} display='flex' justifyContent='center' flexDirection='column'>
 					<FadeInWhenVisible>
 						<h2 className={classes.title}>How to Reach Me</h2>
