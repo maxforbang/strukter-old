@@ -83,7 +83,7 @@ export default function Home() {
                     color: "white"
                 }}
             />
-            <Parallax image='https://ik.imagekit.io/strukter/Strukter/Landing/header?w=3000' filter="dark">
+            <Parallax image='https://ik.imagekit.io/strukter/Strukter/Landing/header/tr:w-1333' filter="dark">
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={7} md={7}>

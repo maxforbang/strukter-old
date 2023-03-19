@@ -44,6 +44,7 @@ import Button from "/components/CustomButtons/Button.js";
 
 import styles from "/styles/jss/nextjs-material-kit-pro/components/headerLinksStyle.js";
 import {handleConsultationButton} from "../../pages";
+import {Foundation} from "@mui/icons-material";
 
 const useStyles = makeStyles(styles);
 
@@ -98,6 +99,14 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list + " " + classes.mlAuto}>
+      <ListItem className={classes.listItem}>
+        <Link href="/mastela">
+          <a className={classes.dropdownLink}>
+            {/*<Foundation className={classes.dropdownIcons} />*/}
+            Case Study
+          </a>
+        </Link>
+      </ListItem>
 {/*
       <ListItem className={classes.listItem}>
         <CustomDropdown

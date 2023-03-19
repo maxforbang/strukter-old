@@ -6,7 +6,7 @@ import featuresStyle from "../../../styles/jss/nextjs-material-kit-pro/pages/sec
 import InfoAreaPhone from "./InfoAreaPhone";
 import {
 	DashboardOutlined,
-	LibraryBooksOutlined,
+	LibraryBooksOutlined, MenuBookOutlined,
 	PhoneIphone
 } from "@mui/icons-material";
 import {FadeInWhenVisibleHorizontal, FadeInWhenVisibleVertical} from "../../../animations/FadeInWhenVisible";
@@ -60,7 +60,7 @@ export default function PhoneSection() {
 						<FadeInWhenVisibleHorizontal initial={100} duration={1.2}>
 							<InfoAreaPhone
 								className={classes.infoArea}
-								icon={LibraryBooksOutlined}
+								icon={MenuBookOutlined}
 								title="Digital Guidebook"
 								description={<p><strong>All the information a guest needs</strong>, from check-in to
 									check-out. Includes a local area guide with activity recommendations, restaurant

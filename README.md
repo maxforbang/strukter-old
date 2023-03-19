@@ -241,7 +241,7 @@ nextjs-material-kit-pro
     │   ├── SectionBlogInfo.js
     │   ├── SectionComments.js
     │   ├── SectionSimilarStories.js
-    │   └── SectionText.js
+    │   └── CaseStudyText.js
     ├── blog-posts
     │   ├── SectionImage.js
     │   ├── SectionInterested.js
@@ -279,12 +279,12 @@ nextjs-material-kit-pro
     │   ├── SectionPricing.js
     │   └── SectionSections.js
     ├── pricing-page
-    │   ├── SectionFeatures.js
+    │   ├── MastelaResultsSection.js
     │   └── SectionPricing.js
     └── sections-page
         ├── SectionBlogs.js
         ├── SectionContacts.js
-        ├── SectionFeatures.js
+        ├── MastelaResultsSection.js
         ├── SectionHeaders.js
         ├── SectionPricing.js
         ├── SectionProjects.js
